@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fireship-learning-910f3": {
+      "hosting": {
+        "firestarter": [
+          "fireship-learning-910f3"
+        ]
+      }
+    }
+  }
+}
