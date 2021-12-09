@@ -24,7 +24,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     HomeComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
